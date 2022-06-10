@@ -10,7 +10,7 @@ Walker::Walker(int x, int y)
 
 void Walker::update() 
 {
-  
+	_x++;
 }
 
 void Walker::draw(SDL_Renderer* renderer)
